@@ -57,8 +57,8 @@ The development version from github:
 
 ```R
 # install.packages("devtools")
-devtools::install_github("rstats-db/DBI")
-devtools::install_github("rstats-db/RMySQL")
+devtools::install_github("r-dbi/DBI")
+devtools::install_github("r-dbi/RMySQL")
 ```
 
 Installation from source on Linux or OSX requires [`MariaDB Connector/C`](https://downloads.mariadb.org/connector-c/). On some older platforms you can also link against Oracle's [libmysqlclient](https://packages.debian.org/testing/libmysqlclient-dev) driver but the mariadb implementation is much better.
